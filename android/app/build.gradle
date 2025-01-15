@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.nasyasakhi.attendance_app"
-    compileSdk = flutter.compileSdkVersiona
+    compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
