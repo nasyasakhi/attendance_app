@@ -27,16 +27,16 @@ class _AttendanceScreenState extends State<AttendanceScreen> {
   final CollectionReference dataCollection = FirebaseFirestore.instance.collection('attendance'); // 'attendance' itu adalah key
 
   @override // nama syntax nya adalah annotation
-  void initState() {
-    handleLocationPermission();
-    setDateTime();
-    setAttendStatus();
+  // void initState() {
+  //   handleLocationPermission();
+  //   setDateTime();
+  //   setAttendStatus();
 
-    if (image != null) {
-      isLoading = true;
-      getGeoLocationPosition();
-    }
-  }
+  //   if (image != null) {
+  //     isLoading = true;
+  //     getGeoLocationPosition();
+  //   }
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -139,24 +139,24 @@ class _AttendanceScreenState extends State<AttendanceScreen> {
                 keyboardType: TextInputType.text,
                 controller: controller,
                 decoration: InputDecoration(
-                  contentPadding: EdgeInsets.symmetric(horizontal: 10),
+                  contentPadding: const EdgeInsets.symmetric(horizontal: 10),
                   labelText: "Your Name",
                   hintText: "Please type your name here",
-                  hintStyle: TextStyle(
+                  hintStyle: const TextStyle(
                     fontSize: 14,
                     color: Colors.grey
                   ),
-                  labelStyle: TextStyle(
+                  labelStyle: const TextStyle(
                     fontSize: 14,
                     color: Colors.black
                   ),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide(color: Colors.blueAccent)
+                    borderSide: const BorderSide(color: Colors.blueAccent)
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                     borderSide: BorderSide(color: Colors.blueAccent)
+                     borderSide: const BorderSide(color: Colors.blueAccent)
                   )
                 ),
                ),
