@@ -25,21 +25,21 @@ class HomeScreen extends StatelessWidget {
               children: [
                 _buidlMenuItem( // ada yang membuat parameter wajib berurutan apa itu?
                   context,
-                  imagePath: "/assets/images/ic_attend.png",
+                  imagePath: "assets/images/ic_attend.png",
                   label: "Attendance Report",
                   destination: const AttendanceScreen()
                   ),
                 const SizedBox(height: 40),
                 _buidlMenuItem( 
                   context,
-                  imagePath: "/assets/images/ic_permission.png",
+                  imagePath: "assets/images/ic_permission.png",
                   label: "Permission Report",
                   destination: const AttendanceScreen()
                   ),
                 const SizedBox(height: 40),
                  _buidlMenuItem( 
                   context,
-                  imagePath: "/assets/images/ic_attendance_history.png",
+                  imagePath: "assets/images/ic_attendance_history.png",
                   label: "Attendance History",
                   destination: const AttendanceScreen()
                   ),
