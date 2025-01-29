@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Padding buidNameInput(TextEditingController controllerName) {
+Padding buildNameInput(TextEditingController controllerName) {
   return Padding(
     padding: const EdgeInsets.all(10),
     child: TextField(
