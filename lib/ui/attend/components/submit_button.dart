@@ -29,11 +29,13 @@ Container buildSubmitButton(BuildContext context, Size size, XFile? image, TextE
                 submitAttendanceReport(context, address, controllerName.text.toString(), status, timeStamp);
               }
             },
-            child: const Text(
-              "Submit Now",
-              style: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.bold
+            child: const Center(
+              child: Text(
+                "Submit Now",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold
+                ),
               ),
             ),
           ),
