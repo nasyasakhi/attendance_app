@@ -10,6 +10,4 @@ class ErrorHandler {
     );
     Navigator.of(context).pop();
   }
-
-  //
 }
