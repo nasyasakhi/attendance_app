@@ -1,4 +1,3 @@
-
 import 'package:attendance_app/ui/attend/components/app_bar.dart';
 import 'package:attendance_app/ui/permission/components/form_body.dart';
 import 'package:attendance_app/ui/permission/components/form_header.dart';
