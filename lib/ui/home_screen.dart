@@ -1,4 +1,5 @@
 import 'package:attendance_app/ui/attend/attendance_screen.dart';
+import 'package:attendance_app/ui/permission/permission_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -34,7 +35,7 @@ class HomeScreen extends StatelessWidget {
                   context,
                   imagePath: "assets/images/ic_permission.png",
                   label: "Permission Report",
-                  destination: const AttendanceScreen()
+                  destination: const PermissionScreen()
                   ),
                 const SizedBox(height: 40),
                  _buidlMenuItem( 
